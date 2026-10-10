@@ -2,7 +2,9 @@
 
 An interactive dashboard to analyze Indian stocks (NSE): price trends, moving averages, volatility, and comparison between stocks.
 
-**Live app:** ADD-YOUR-STREAMLIT-LINK-HERE
+# Live app:
+
+ https://stock-analyzer-dxjtvk68ffufrb3kkgea7k.streamlit.app/
 
 > For learning only, not financial advice.
 
@@ -32,18 +34,15 @@ Python, pandas, NumPy, Plotly, Streamlit, yfinance, Jupyter Notebook (VS Code)
 
 ## Key Findings
 
-- ADD: which stock was the most volatile
-- ADD: which stock gave the best total return
-- ADD: which stocks move most closely together
-- ADD: any other pattern you noticed
+- TCS was the most volatile stock
 
 ## Run Locally
 
+## Run Locally
+
+```
 python -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
 streamlit run app.py
-
-## Author
-
-Bhavya
+```
